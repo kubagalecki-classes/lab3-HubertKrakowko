@@ -22,7 +22,7 @@ unsigned int transportujFlota(unsigned int towar)
     else {
     }
 
-        przekaz=statek.transportuj;
+        przekaz=statek.transportuj();
         calosc=calosc+przekaz;
         delete statek;
 
